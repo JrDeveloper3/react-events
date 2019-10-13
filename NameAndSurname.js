@@ -5,8 +5,8 @@ export default class NameAndSurname extends React.Component{
     super(props);
   
     this.state = {
-      name : " ",
-      surname : " "
+      name : props.name,
+      surname : props.surname
     }
   }
 

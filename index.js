@@ -7,14 +7,15 @@ class App extends Component {
   constructor() {
     super();
     this.state = {
-      name: 'React'
+      name: 'React',
+      surname: "Class"
     };
   }
 
   render() {
     return (
       <div>
-        <NameAndSurname name={this.state.name} />
+        <NameAndSurname name={this.state.name} surname={this.state.surname} />
       </div>
     );
   }
