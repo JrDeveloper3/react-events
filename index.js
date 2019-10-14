@@ -7,8 +7,8 @@ class App extends Component {
   constructor() {
     super();
     this.state = {
-      name: 'React',
-      surname: "Class"
+      name: '',
+      surname: ''
     };
   }
 
